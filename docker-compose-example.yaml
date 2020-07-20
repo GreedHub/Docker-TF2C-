@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  tf2_classic:
+    image: gravityl_tf2classic
+    environment:
+      MAP: 'ctf_2fort'
+    ports:
+      - "27015:27015/udp"
+      - "27015:27015/tcp"
+      - "7401:7401"
+      - "8401:8401"
+    volumes:
+      - /path/to/your/folder/:/home/steam/tf2c
