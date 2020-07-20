@@ -2,7 +2,6 @@ FROM cm2network/steamcmd
 
 ENV METAMOD_VERSION 1.10 \
     SOURCEMOD_VERSION 1.10 \
-    IP "127.0.0.1" \
     MAP "ctf_2fort"
 
 WORKDIR /tf2c
