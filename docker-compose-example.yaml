@@ -3,6 +3,7 @@ version: '3'
 services:
   tf2_classic:
     image: gravityl_tf2classic
+    restart: always
     environment:
       MAP: 'dom_hydro'
     ports:
